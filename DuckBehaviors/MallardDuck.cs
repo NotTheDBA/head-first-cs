@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DuckBehaviors
 {
-    public class MallardDuck : Duck , IQuackBehavior, IFlyBehavior
+    public class MallardDuck : Duck //, IQuackBehavior, IFlyBehavior
     {
         public MallardDuck()
         {
