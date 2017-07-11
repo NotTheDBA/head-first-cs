@@ -13,12 +13,21 @@ namespace DuckBehaviors
             mallard.performFly();
             mallard.display();
             System.Console.WriteLine();
+
             Duck model = new ModelDuck();
             model.performFly();
             model.setFlyBehavior(new FlyRocketPowered());
             model.performFly();
             model.display();
+            System.Console.WriteLine();
+
+            DuckCall duckCall = new DuckCall();
+            duckCall.performQuack();
+            duckCall.performFly();
+            duckCall.display();
             System.Console.ReadKey();
+
+
         }
     }
 }

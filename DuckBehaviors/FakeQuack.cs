@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DuckBehaviors
 {
-    class MuteQuack : IQuackBehavior
+    class FakeQuack : IQuackBehavior
     {
         public void quack()
         {
-            System.Console.WriteLine("<< Silence >>");
+            System.Console.WriteLine("Fake quack.  Sounds real.");
         }
 
     }
