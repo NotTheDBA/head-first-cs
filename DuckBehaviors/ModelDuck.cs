@@ -9,7 +9,6 @@ namespace DuckBehaviors
         {
             flyBehavior = new FlyNoWay();
             quackBehavior = new Quack();
-
         }
 
         override public void display()

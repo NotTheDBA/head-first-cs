@@ -12,16 +12,6 @@ namespace DuckBehaviors
             this.quackBehavior = new Quack();
         }
 
-        public void quack()
-        {
-            this.performQuack();
-        }
-
-        public void fly()
-        {
-            this.performFly();
-        }
-
         override public void display()
         {
             System.Console.WriteLine("I'm a real Mallard Duck!");
